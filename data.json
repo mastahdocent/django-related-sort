@@ -1,0 +1,51 @@
+[
+    {
+        "model": "music.Album",
+        "pk": 1,
+        "fields": {
+            "title": "Pierwszy album",
+            "artist": "Wykonawca",
+            "order": "4,2,5,3,1"
+        }
+    },
+    {
+        "model": "music.Track",
+        "pk": 1,
+        "fields": {
+            "title": "Piosenka piąta",
+            "album_id": 1
+        }
+    },
+    {
+        "model": "music.Track",
+        "pk": 2,
+        "fields": {
+            "title": "Piosenka druga",
+            "album_id": 1
+        }
+    },
+    {
+        "model": "music.Track",
+        "pk": 3,
+        "fields": {
+            "title": "Piosenka czwarta",
+            "album_id": 1
+        }
+    },
+    {
+        "model": "music.Track",
+        "pk": 4,
+        "fields": {
+            "title": "Piosenka pierwsza",
+            "album_id": 1
+        }
+    },
+    {
+        "model": "music.Track",
+        "pk": 5,
+        "fields": {
+            "title": "Piosenka trzecia",
+            "album_id": 1
+        }
+    }
+]
